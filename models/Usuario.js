@@ -16,7 +16,6 @@ const Usuario = db.define('usuarios',{
         allowNull: false    
     }
 
-    
 },{
     hooks: {
         beforeCreate: async function(usuario){
@@ -26,6 +25,5 @@ const Usuario = db.define('usuarios',{
         }
     }
 })
-
 
 export default Usuario
